@@ -1,0 +1,25 @@
+{
+  "name": "webprogramming",
+  "version": "1.0.0",
+  "description": "university webprogramming lecture",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnoodle0503/university_webprogramming.git"
+  },
+  "author": "jeonginsoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jnoodle0503/university_webprogramming/issues"
+  },
+  "homepage": "https://github.com/jnoodle0503/university_webprogramming#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "express": "^4.17.1"
+  }
+}
