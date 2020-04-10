@@ -22,9 +22,11 @@ for (var i = 0; i < floor; i++) {
   if (cnt === 7) {
     cnt = 0;
   }
+  /* 공백처리 (center 태그로 해결됨)
   for (var j = 1; j < space; j++) {
     document.write("&nbsp&nbsp&nbsp");
   }
+  */
   for (var j = space; j <= star - space; j++) {
     document.write(
       "<font size=5 style=color:" + rainbow[cnt] + ">*&nbsp</font>"
@@ -40,9 +42,11 @@ for (var i = 1; i < floor; i++) {
   if (cnt === 7) {
     cnt = 0;
   }
+  /* 공백처리 (center 태그로 해결됨)
   for (var j = 0; j <= floor - space; j++) {
     document.write("&nbsp&nbsp&nbsp");
   }
+  */
   for (var j = floor - space + 3; j < floor + space; j++) {
     document.write(
       "<font size=5 style=color:" + rainbow[cnt] + ">*&nbsp</font>"
